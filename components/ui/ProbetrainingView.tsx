@@ -66,11 +66,11 @@ const ProbetrainingView = ({ closeModal }: { closeModal: () => void }) => {
       formData,                 // Form Data
       'KSB6tzxF0Msk5pSkm'
     ).then(
-      (result) => {
+      () => {
         alert('Nachricht erfolgreich gesendet!');
         setButtonTitle('Anfrage senden')
       },
-      (error) => {
+      () => {
         alert('Fehler beim Senden der Nachricht. Bitte versuche es erneut.');
         setButtonTitle('Anfrage senden')
       }

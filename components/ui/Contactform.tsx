@@ -34,11 +34,11 @@ const ContactForm = () => {
       formData,                 // Form Data
       'KSB6tzxF0Msk5pSkm'
     ).then(
-      (result) => {
+      () => {
         alert('Nachricht erfolgreich gesendet!');
         setButtonTitle('Nachricht senden')
       },
-      (error) => {
+      () => {
         alert('Fehler beim Senden der Nachricht. Bitte versuche es erneut.');
         setButtonTitle('Nachricht senden')
       }
