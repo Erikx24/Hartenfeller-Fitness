@@ -1,0 +1,155 @@
+.headline {
+    font-weight: 600;
+    font-size: 9vw;
+}
+
+.infoButtonText {
+    font-size: 15px;
+    font-weight: 400;
+    color: #233328;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.buttonText {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.secondary-buttonText {
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.subheadline {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.info {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sectionTitle {
+    font-size: 24px;
+    font-weight: 500;
+    color: #3F5947;
+}
+
+.callout {
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.footnote{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+@media (min-width: 640px) {
+    .headline {
+        font-weight: 500;
+        font-size: 7vw;
+    }
+    .buttonText {
+        font-size: 24px;
+        font-weight: 400;
+        color: white;
+    }
+    .secondary-buttonText {
+        font-size: 24px;
+        font-weight: 400;
+        color: #666666;
+    }
+    .subheadline {
+        font-size: 38px;
+        font-weight: 300;
+    }
+}
+
+@media (min-width: 768px) {
+    .infoButtonText {
+        font-size: 20px;
+        font-weight: 400;
+        color: #233328;
+    }
+
+    .text {
+        font-size: 26px;
+        font-weight: 300;
+    }
+
+    .buttonText {
+        font-size: 28px;
+        font-weight: 400;
+        color: white;
+    }
+    .secondary-buttonText {
+        font-size: 28px;
+        font-weight: 400;
+        color: #666666;
+    }
+    .subheadline {
+        font-size: 42px;
+        font-weight: 300;
+    }
+    .callout {
+        font-size: 32px;
+        font-weight: 300;
+    }
+}
+
+@media (min-width: 1024px) {
+    .headline {
+        font-weight: 500;
+        font-size: 6vw;
+    }
+    .subheadline {
+        font-size: 50px;
+        font-weight: 300;
+    }
+    .info {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .sectionTitle {
+        font-size: 28px;
+        font-weight: 500;
+        color: #3F5947;
+    }
+}
+
+@media (min-width: 1280px) {
+    .headline {
+        font-weight: 400;
+        font-size: 100px;
+    }
+    .buttonText {
+        font-size: 26px;
+        font-weight: 400;
+        color: white;
+    }
+    .secondary-buttonText {
+        font-size: 26px;
+        font-weight: 400;
+        color: #666666;
+    }
+    .subheadline {
+        font-size: 64px;
+        font-weight: 300;
+    }
+    .callout {
+        font-size: 34px;
+        font-weight: 300;
+    }
+}
+
+
+

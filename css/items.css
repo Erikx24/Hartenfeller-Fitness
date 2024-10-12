@@ -1,0 +1,61 @@
+.button {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100px;
+    width: fit-content;
+    background: linear-gradient(90deg, rgba(118,165,132,1) 0%, rgba(91,127,102,1) 100%);
+    opacity: 1; /* Standard-Opacity */
+    transition: opacity 0.3s ease;
+}
+
+.button:hover {
+    opacity: 0.65;
+}
+
+.secondary-button {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 100px;
+    width: fit-content;
+    background: #dbdbdb;
+}
+
+@media (min-width: 1024px) {
+    .button {
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 28px;
+        padding-right: 28px;
+        border-radius: 100px;
+        width: fit-content;
+        background: linear-gradient(90deg, rgba(118,165,132,1) 0%, rgba(91,127,102,1) 100%);
+    }
+
+    .secondary-button {
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 28px;
+        padding-right: 28px;
+        border-radius: 100px;
+        width: fit-content;
+        background: #dbdbdb;
+    }
+}
+
+.infoButton {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 15px;
+    border-radius: 100px;
+    width: fit-content;
+    background: #E1E1E1;
+    
+}
+
+
+  
