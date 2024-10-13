@@ -1,4 +1,5 @@
-"use client"
+'use client'
+
 import React, { useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { BsPersonCheck, BsPersonPlus } from 'react-icons/bs'
@@ -27,18 +28,45 @@ const Termin = () => {
     return null
   }
 
+  const variants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.5,
+        staggerChildren: 0.1,
+      },
+    },
+  }
+
+  const item = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.5 },
+    },
+  }
+
   return (
     <div id='termin' className='w-full mt-16 bg-hf-100 px-5 md:px-24 py-10 lg:py-16'>
-      <div className='max-w-7xl mx-auto flex flex-col justify-center gap-20 items-center lg:items-start'>
-        <div className='flex flex-col space-y-5 items-center lg:items-start'>
+      <motion.div
+        className='max-w-7xl mx-auto flex flex-col justify-center gap-20 items-center lg:items-start'
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        variants={variants}
+      >
+        <motion.div className='flex flex-col space-y-5 items-center lg:items-start' variants={item}>
           <h2 className='sectionTitle'>Termin vereinbaren</h2>
           <h1 className='subheadline leading-tight text-center lg:text-left'>
             Jetzt einfach und schnell einen Termin vereinbaren
           </h1>
-        </div>
+        </motion.div>
 
-        <div className='w-full flex flex-col lg:flex-row justify-center gap-20 lg:justify-between'>
-          <div className='flex flex-col items-center lg:items-start w-[90%] lg:w-[40%] mx-auto gap-8'>
+        <motion.div className='w-full flex flex-col lg:flex-row justify-center gap-20 lg:justify-between' variants={variants}>
+          <motion.div className='flex flex-col items-center lg:items-start w-[90%] lg:w-[40%] mx-auto gap-8' variants={item}>
             <div className='flex flex-col space-y-2 items-center lg:items-start'>
               <div className='callout text-hf-400 gap-4 flex flex-row items-center lg:-translate-x-[50px]'>
                 <BsPersonPlus className='text-hf-300' />
@@ -56,9 +84,9 @@ const Termin = () => {
             >
               Probetraining anfragen
             </div>
-          </div>
+          </motion.div>
 
-          <div className='flex flex-col items-center lg:items-start w-[90%] lg:w-[40%] gap-8 mx-auto'>
+          <motion.div className='flex flex-col items-center lg:items-start w-[90%] lg:w-[40%] gap-8 mx-auto' variants={item}>
             <div className='flex flex-col space-y-2 items-center lg:items-start'>
               <div className='callout text-hf-400 gap-4 flex flex-row items-center lg:-translate-x-[50px]'>
                 <BsPersonCheck className='text-hf-300' />
@@ -75,30 +103,30 @@ const Termin = () => {
             >
               Training buchen
             </div>
-          </div>
-        </div>
-      </div>
+          </motion.div>
+        </motion.div>
+      </motion.div>
 
       {/* Modal */}
       <AnimatePresence mode="wait">
-      {isModalOpen && (
-        <motion.div
-          className='fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center'
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-        >
+        {isModalOpen && (
           <motion.div
-            className='bg-white rounded-md shadow-lg w-[90vw] md:w-[80vw] max-w-4xl'
-            initial={{ scale: 0.8 }}
-            animate={{ scale: 1 }}
-            exit={{ scale: 0.8 }}
+            className='fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
           >
-            {renderModalContent()}
+            <motion.div
+              className='bg-white rounded-md shadow-lg w-[90vw] md:w-[80vw] max-w-4xl z-50'
+              initial={{ scale: 0.8 }}
+              animate={{ scale: 1 }}
+              exit={{ scale: 0.8 }}
+            >
+              {renderModalContent()}
+            </motion.div>
           </motion.div>
-        </motion.div>
-      )}
-       </AnimatePresence>
+        )}
+      </AnimatePresence>
     </div>
   )
 }

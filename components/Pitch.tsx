@@ -31,23 +31,23 @@ const Pitch = () => {
 
   return (
     <div className='w-full h-fit bg-hf-400 z-30 md:z-0 px-5 lg:px-24'>
-      <div className='w-full h-full max-w-7xl mx-auto flex flex-col md:flex-row xl:flex-col justify-between items-center xl:items-start xl:gap-20 py-10 text-hf-50 gap-10'>
-        <p className='subheadline text-center md:text-left'>Jahrelange Erfahrung<br /> im Kraftsport</p>
+      <div className='w-full h-full md:max-w-2xl lg:max-w-7xl mx-auto flex flex-col md:flex-row xl:flex-col justify-between items-center xl:items-start xl:gap-20 py-10 text-hf-50 gap-10'>
+        <p className='callout text-center md:text-left'>Aufgewachsen mit<br/> dem Kraftsport</p>
 
         <div className='flex flex-col items-center md:items-start lg:flex-row gap-20' ref={counterRef}>
 
           <div className='flex flex-col'>
-            <p className='font-bold text-8xl inter-font'>
+            <p className='font-bold text-7xl inter-font'>
               {isVisible && <CountUp end={5} />}+
             </p>
-            <p className='text text-hf-60'>Jahre</p>
+            <p className='text text-hf-60'>Jahre Erfahrung</p>
           </div>
 
           <div className='flex flex-col items-center md:items-start'>
-            <p className='font-bold text-8xl inter-font'>
-              {isVisible && <CountUp end={50} />}+
+            <p className='font-bold text-7xl inter-font'>
+              {isVisible && <CountUp end={1500} />}+
             </p>
-            <p className='text text-hf-60'>zufriedene Kunden</p>
+            <p className='text text-hf-60'>Trainingsstunden</p>
           </div>
 
         </div>

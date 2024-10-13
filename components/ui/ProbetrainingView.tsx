@@ -92,10 +92,10 @@ const ProbetrainingView = ({ closeModal }: { closeModal: () => void }) => {
 
 
 
-      <form onSubmit={handleSubmit} className="mx-auto">
+      <form onSubmit={handleSubmit} className="mx-auto z-50">
       <div className="mb-8">
       <div className="mb-4">
-        <label className="block text-ecs-YinmnBlue mb-2 " htmlFor="firstName">
+        <label className="block text-hf-80 mb-2 " htmlFor="firstName">
           Vorname
         </label>
         <input
@@ -111,7 +111,7 @@ const ProbetrainingView = ({ closeModal }: { closeModal: () => void }) => {
       
 
       <div className="mb-4">
-        <label className="block text-ecs-YinmnBlue mb-2" htmlFor="lastName">
+        <label className="block text-hf-80 mb-2" htmlFor="lastName">
           Nachname
         </label>
         <input
@@ -127,7 +127,7 @@ const ProbetrainingView = ({ closeModal }: { closeModal: () => void }) => {
 
 
       <div className="mb-4">
-        <label className="block text-ecs-YinmnBlue mb-2" htmlFor="email">
+        <label className="block text-hf-80 mb-2" htmlFor="email">
           E-Mail
         </label>
         <input
@@ -141,7 +141,7 @@ const ProbetrainingView = ({ closeModal }: { closeModal: () => void }) => {
       </div>
 
       <div className="mb-4">
-        <label className="block text-ecs-YinmnBlue mb-2" htmlFor="phone">
+        <label className="block text-hf-80 mb-2" htmlFor="phone">
           Handy (optional)
         </label>
         <input
@@ -153,7 +153,7 @@ const ProbetrainingView = ({ closeModal }: { closeModal: () => void }) => {
         />
       </div>
 
-      <label className="block text-ecs-YinmnBlue mb-4" htmlFor="company">
+      <label className="block text-hf-80 mb-4" htmlFor="company">
          Haben Sie gesundheitliche Einschränkungen? Wenn ja, welche?
         </label>
         <input
@@ -187,7 +187,7 @@ const ProbetrainingView = ({ closeModal }: { closeModal: () => void }) => {
 
 
       <div className="mb-8">
-        <label className="block text-ecs-YinmnBlue mb-2" htmlFor="message">
+        <label className="block text-hf-80 mb-2" htmlFor="message">
           Nachricht
         </label>
 

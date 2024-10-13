@@ -7,12 +7,12 @@ const page = () => {
   return (
     <div id='datenschutz'
     className='flex flex-col justify-between w-full bg-ecs-Platinum text-ecs-richBlack min-h-screen overflow-hidden'>
-      <div className='max-w-7xl py-10 px-4 mx-auto overflow-hidden mb-40'>
+      <div className='w-full max-w-7xl py-10 px-4 mx-auto overflow-hidden mb-40'>
       <Link href='/'><MdArrowBackIosNew className='text-ecs-richBlack text-3xl hover:text-ecs-SilverLakeBlue' /></Link>
 
        <h1 className='text-ecs-richBlack text-center subheadline pb-10'>Datenschutz</h1>
 
-        <div className='overflow-hidden info text-hf-80'>
+        <div className='overflow-hidden text-justify md:text-left info text-hf-80'>
 
         <h1>Datenschutz&shy;erkl&auml;rung</h1>
 <h2>1. Datenschutz auf einen Blick</h2>
