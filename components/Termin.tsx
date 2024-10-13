@@ -50,25 +50,25 @@ const Termin = () => {
   }
 
   return (
-    <div id='termin' className='w-full mt-16 bg-hf-100 px-5 md:px-24 py-10 lg:py-16'>
+    <div id='termin' className='w-full mt-16 bg-hf-100 px-5 md:px-24 py-10 xl:py-16'>
       <motion.div
-        className='max-w-7xl mx-auto flex flex-col justify-center gap-20 items-center lg:items-start'
+        className='max-w-7xl mx-auto flex flex-col justify-center gap-20 items-center xl:items-start'
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
         variants={variants}
       >
-        <motion.div className='flex flex-col space-y-5 items-center lg:items-start' variants={item}>
+        <motion.div className='flex flex-col space-y-5 items-center xl:items-start' variants={item}>
           <h2 className='sectionTitle'>Termin vereinbaren</h2>
-          <h1 className='subheadline leading-tight text-center lg:text-left'>
+          <h1 className='subheadline leading-tight text-center xl:text-left'>
             Jetzt einfach und schnell einen Termin vereinbaren
           </h1>
         </motion.div>
 
-        <motion.div className='w-full flex flex-col lg:flex-row justify-center gap-20 lg:justify-between' variants={variants}>
-          <motion.div className='flex flex-col items-center lg:items-start w-[90%] lg:w-[40%] mx-auto gap-8' variants={item}>
-            <div className='flex flex-col space-y-2 items-center lg:items-start'>
-              <div className='callout text-hf-400 gap-4 flex flex-row items-center lg:-translate-x-[50px]'>
+        <motion.div className='w-full flex flex-col xl:flex-row justify-center gap-20 xl:justify-between' variants={variants}>
+          <motion.div className='flex flex-col items-center xl:items-start w-[90%] xl:w-[40%] mx-auto gap-8' variants={item}>
+            <div className='flex flex-col space-y-2 items-center xl:items-start'>
+              <div className='callout text-hf-400 gap-4 flex flex-row items-center xl:-translate-x-[50px]'>
                 <BsPersonPlus className='text-hf-300' />
                 Für neue Kunden
               </div>
@@ -86,9 +86,9 @@ const Termin = () => {
             </div>
           </motion.div>
 
-          <motion.div className='flex flex-col items-center lg:items-start w-[90%] lg:w-[40%] gap-8 mx-auto' variants={item}>
-            <div className='flex flex-col space-y-2 items-center lg:items-start'>
-              <div className='callout text-hf-400 gap-4 flex flex-row items-center lg:-translate-x-[50px]'>
+          <motion.div className='flex flex-col items-center xl:items-start w-[90%] xl:w-[40%] gap-8 mx-auto' variants={item}>
+            <div className='flex flex-col space-y-2 items-center xl:items-start'>
+              <div className='callout text-hf-400 gap-4 flex flex-row items-center xl:-translate-x-[50px]'>
                 <BsPersonCheck className='text-hf-300' />
                 Bestehende Kunden
               </div>
@@ -117,7 +117,7 @@ const Termin = () => {
             exit={{ opacity: 0 }}
           >
             <motion.div
-              className='bg-white rounded-md shadow-lg w-[90vw] md:w-[80vw] max-w-4xl z-50'
+              className='bg-white rounded-md shadow-xl w-[90vw] md:w-[80vw] max-w-4xl z-50'
               initial={{ scale: 0.8 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0.8 }}
