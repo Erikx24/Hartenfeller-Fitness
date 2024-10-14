@@ -29,7 +29,7 @@ const Bewertungen = () => {
     
     </div>
 </div>
-<InfiniteMovingCards items={testimonials} speed='slow' pauseOnHover={false}/>
+<InfiniteMovingCards items={testimonials} speed='slow' pauseOnHover={true}/>
 </div>
   )
 }

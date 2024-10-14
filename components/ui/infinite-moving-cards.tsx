@@ -59,7 +59,7 @@ export const InfiniteMovingCards = ({
       const speedMap = {
         fast: "20s",
         normal: "40s",
-        slow: "150s",
+        slow: "80s",
       };
       containerRef.current.style.setProperty(
         "--animation-duration",
@@ -86,7 +86,7 @@ export const InfiniteMovingCards = ({
       >
         {items.map((item, index) => (
           <li
-            className="w-[350px] max-w-full relative rounded-2xl border-2 flex-shrink-0 border-hf-200 px-6 py-4 md:w-[450px] bg-hf-500 shadow-md"
+            className="w-[350px] max-w-full relative rounded-2xl border-2 flex-shrink-0 border-hf-200 px-6 py-6 md:w-[450px] bg-hf-500 shadow-md"
             key={`${item.name}-${index}`}
           >
             <blockquote>

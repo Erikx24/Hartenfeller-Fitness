@@ -9,7 +9,7 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   return (
     <div className='w-full h-screen lg:h-[60rem] bg-gradient-to-br from-hf-50  to-hf-100 px-5 lg:px-24 md:pt-32 pt-[6rem] overflow-hidden'>
-      <div className='max-w-7xl mx-auto gap-10 flex flex-col justify-start items-center lg:items-start'>
+      <div className='max-w-7xl mx-auto gap-10 flex flex-col justify-start items-center lg:items-start overflow-hidden'>
 
       
 
@@ -50,9 +50,9 @@ const Hero = () => {
         Termin vereinbaren
     </motion.a>
     {/*Background*/}
-    <div className='absolute w-screen h-full flex justify-center mt-[50vh] z-0 lg:z-10 md:-bottom-[58vh] lg:translate-x-[20%] xl:translate-x-[40%] lg:-bottom-[20%] max-w-7xl overflow-hidden mx-auto'>
+    <div className='absolute h-full flex justify-center mt-[50vh] z-0 lg:z-10 md:-bottom-[58vh] lg:left-[43%] xl:left-[50%] lg:-bottom-[28%] max-w-7xl overflow-hidden mx-auto'>
       <div className='min-w-[550px] md:min-w-[700px] w-80 xl:w-[1130px] '>
-      <Image src={'/images/bg.png'} alt={''} width={1130} height={1080} quality={100} className='object-cover saturate-[75%]'/>
+      <Image src={'/images/bg.png'} alt={''} width={1130} height={1080} quality={100} className='object-cover saturate-[75%] max-w-full'/>
       </div>
     </div>
 
