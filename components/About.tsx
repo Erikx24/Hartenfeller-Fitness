@@ -26,7 +26,7 @@ const About = () => {
   }
 
   return (
-    <div id='about' className='flex flex-col-reverse lg:flex-row justify-center lg:justify-between gap-10 items-center lg:items-end pt-32'>
+    <div id='about' className='flex flex-col-reverse lg:flex-row justify-center lg:justify-between gap-10 items-center lg:items-end pt-24'>
       <motion.div
         initial="hidden"
         whileInView="visible"
@@ -48,7 +48,7 @@ const About = () => {
           className='flex flex-col space-y-2 items-center lg:items-start'
           variants={item}
         >
-          <motion.h1 className='subheadline leading-tight' variants={item}>
+          <motion.h1 className='subheadline leading-tight text-center lg:text-left' variants={item}>
             Ihr Ziel trifft<br className='hidden lg:block' /> meine Erfahrung
           </motion.h1>
 

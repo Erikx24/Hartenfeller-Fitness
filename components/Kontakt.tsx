@@ -53,14 +53,14 @@ const Kontakt = () => {
             <BiMailSend />
             <p className='line-clamp-1'>luis@hartenfeller-fitness.de</p>
           </motion.div>
-          <motion.div className='flex flex-row gap-2 items-center text text-hf-80' variants={item}>
+          <motion.a href='https://www.instagram.com/luis.hartenfeller?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' className='flex flex-row gap-2 items-center text text-hf-80 border-b-2' variants={item}>
             <FaInstagram />
             <p className='line-clamp-1'>luis.hartenfeller</p>
-          </motion.div>
-          <motion.div className='flex flex-row gap-2 items-center text text-hf-80' variants={item}>
+          </motion.a>
+          <motion.a href='tel:+4917621201940' className='flex flex-row gap-2 items-center text text-hf-80 border-b-2' variants={item}>
             <BiPhone />
-            <p className='line-clamp-1'>(+49) 17621201940</p>
-          </motion.div>
+            <p className='line-clamp-1'>(+49) 176 21201940</p>
+          </motion.a>
         </motion.div>
 
         <motion.div className='w-full flex items-center lg:w-[45%]' variants={item}>

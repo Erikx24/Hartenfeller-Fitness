@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <div className='w-full h-screen lg:h-[60rem] bg-gradient-to-br from-hf-50  to-hf-100 px-5 lg:px-24 md:pt-32 pt-[6rem]'>
+    <div className='w-full h-screen lg:h-[60rem] bg-gradient-to-br from-hf-50  to-hf-100 px-5 lg:px-24 md:pt-32 pt-[6rem] overflow-hidden'>
       <div className='max-w-7xl mx-auto gap-10 flex flex-col justify-start items-center lg:items-start'>
 
       
@@ -39,7 +39,7 @@ const Hero = () => {
 
           <motion.div initial={{scale: 0.8, y:20 , opacity:0}} animate={{scale:1, y:0, opacity:1}} transition={{duration: 0.4, ease: [0, 0.71, 0.2, 1.01], delay: 1.2 }}
           className="info text-center lg:text-left text-hf-70 lg:w-[50%] w-[90%] max-w-xl">
-           Ob Muskelaufbau, oder einen gesunden, leistungsfähigen Körper - mit meiner Expertise helfe ich Menschen in jeder Situation (wieder) fit für den Alltag zu werden. 
+           Ob Muskelaufbau oder einen gesunden, leistungsfähigen Körper - mit meiner Expertise helfe ich Menschen in jeder Situation (wieder) fit für den Alltag zu werden. 
           </motion.div>
           </div>
           </div>

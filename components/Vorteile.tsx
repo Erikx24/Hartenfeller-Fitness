@@ -63,7 +63,7 @@ const Vorteile = () => {
           Vorteile
         </motion.h2>
 
-        <motion.div className='flex flex-col space-y-2 items-center lg:items-start' variants={item}>
+        <motion.div className='flex flex-col space-y-2 items-center lg:items-start text-center lg:text-left' variants={item}>
           <motion.h1 className='subheadline leading-tight' variants={item}>
             Schneller und sicherer an Ihr Ziel
           </motion.h1>

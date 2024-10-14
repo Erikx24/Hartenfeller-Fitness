@@ -29,14 +29,14 @@ const Footer = () => {
           <BiMailSend />
           <p className='line-clamp-1'>luis@hartenfeller-fitness.de</p>
         </div>
-        <div className='flex flex-row gap-2 items-center'>
+        <a href='https://www.instagram.com/luis.hartenfeller?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' className='flex flex-row gap-2 items-center'>
           <FaInstagram />
           <p className='line-clamp-1'>luis.hartenfeller</p>
-        </div>
-        <div className='flex flex-row gap-2 items-center'>
+        </a>
+        <a href='tel:+4917621201940' className='flex flex-row gap-2 items-center'>
           <BiPhone />
           <p className='line-clamp-1'>017621201940</p>
-        </div>
+        </a>
 
 
       </div>
