@@ -8,10 +8,10 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <div className='w-full h-screen lg:h-[60rem]  bg-gradient-to-br from-hf-50 to-hf-100  md:pt-32 pt-[6rem] overflow-hidden'>
+    <div className='w-full h-screen lg:h-[60rem]  bg-gradient-to-br from-hf-50 to-hf-100 md:pt-32 lg:pt-0 pt-[6rem] overflow-hidden'>
       
       <div className='max-w-7xl h-full w-full  mx-auto flex flex-col justify-between lg:justify-normal items-center lg:flex-row '>
-        <div className='lg:w-[780px] xl:w-[1080px] gap-10 lg:gap-10 flex flex-col justify-start items-center lg:items-start px-5 lg:pl-12'>
+        <div className='lg:w-[780px] xl:w-[1080px] gap-10  flex flex-col justify-start items-center lg:items-start px-5 lg:pl-12'>
         {/* Luis Hartenfeller */}
         <div className='flex flex-col items-center lg:items-start z-20 gap-6'>
           <motion.a href='/#about' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5, ease: [0, 0.71, 0.2, 1.01], delay: 0 }}
@@ -46,7 +46,7 @@ const Hero = () => {
         </div>
       
 
-      <Image src={'/images/bg.png'} alt={''} width={900} height={1300} quality={100} className='object-cover lg:absolute lg:z-30 lg:scale-75 lg:left-[30%] lg:top-[25%] xl:scale-100 xl:top-[40%] xl:left-[50%] '/>
+      <Image src={'/images/bg.png'} alt={''} width={900} height={1300} quality={100} className=' max-w-full object-cover lg:absolute lg:z-30 lg:scale-75 lg:left-[30%] lg:top-[25%] xl:scale-100 xl:top-[40%] xl:left-[50%] '/>
       </div>
     </div>
   )
