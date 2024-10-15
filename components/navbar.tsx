@@ -20,7 +20,7 @@ const Navbar = () => {
   
   return (
       
-    <nav className='fixed w-full h-fit bg-hf-90 z-40 px-4 lg:px-24 py-2 md:py-5'>
+    <nav className='fixed w-screen h-fit bg-hf-90 z-40 px-4 lg:px-24 py-2 md:py-5'>
     <div className='w-full max-w-7xl mx-auto flex flex-row items-center justify-between '>
       <a href='/' className='flex flex-row items-center gap-2 lg:gap-5 text-hf-100 text-xs md:text-base w-[20vw]'>
         
@@ -30,7 +30,7 @@ const Navbar = () => {
         </a> 
 
         <div className='hidden lg:flex flex-row justify-center gap-10 text-xl font-extralight text-hf-200 w-[60vw]'>
-        <a href="/#erfahrungen">Erfahrungen</a>
+        <a href="/#bewertungen">Erfahrungen</a>
         <a href="/#about">Über mich</a>
         <a href="/#termin">Termin</a>
         <a href="/#contact">Kontakt</a>
@@ -71,7 +71,7 @@ const Navbar = () => {
             }}
           >
               <div className='w-full flex flex-col justify-start gap-10 pt-10 items-center text-hf-200 text-xl font-extralight'>
-              <a href="/#erfahrungen" onClick={handleCloseNavbar}>Erfahrungen</a>
+              <a href="/#bewertungen" onClick={handleCloseNavbar}>Erfahrungen</a>
               <a href="/#about" onClick={handleCloseNavbar}>Über mich</a>
               <a href="/#termin" onClick={handleCloseNavbar}>Termin</a>
                <a href="/#contact" onClick={handleCloseNavbar}>Kontakt</a>

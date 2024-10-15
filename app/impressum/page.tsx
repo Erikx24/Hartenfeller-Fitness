@@ -8,7 +8,9 @@ const page = () => {
     <div id='impressum'
     className='flex flex-col justify-between w-full bg-ecs-Platinum text-ecs-richBlack min-h-screen overflow-hidden'>
       <div className='max-w-7xl py-10 px-4 mx-auto overflow-hidden mb-40'>
-      <Link href='/'><MdArrowBackIosNew className='text-ecs-richBlack text-3xl hover:text-ecs-SilverLakeBlue' /></Link>
+      <div className='fixed rounded-full p-1 bg-white z-50'>
+      <Link href='/'><MdArrowBackIosNew className=' text-ecs-richBlack text-3xl hover:text-ecs-SilverLakeBlue' /></Link>
+      </div>
 
        <h1 className='text-ecs-richBlack text-center subheadline pb-10'>Impressum</h1>
 

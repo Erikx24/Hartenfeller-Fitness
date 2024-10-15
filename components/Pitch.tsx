@@ -36,18 +36,20 @@ const Pitch = () => {
 
         <div className='flex flex-col items-center md:items-start lg:flex-row gap-20' ref={counterRef}>
 
-          <div className='flex flex-col'>
+          
+
+          <div className='flex flex-col items-center md:items-start'>
             <p className='font-bold text-7xl inter-font'>
-              {isVisible && <CountUp end={5} />}+
+              {isVisible && <CountUp end={100} />}%
             </p>
-            <p className='text text-hf-60'>Jahre Erfahrung</p>
+            <p className='text text-hf-60'>Motivation</p>
           </div>
 
           <div className='flex flex-col items-center md:items-start'>
             <p className='font-bold text-7xl inter-font'>
-              {isVisible && <CountUp end={1500} />}+
+              {isVisible && <CountUp end={5} />}+
             </p>
-            <p className='text text-hf-60'>Trainingsstunden</p>
+            <p className='text text-hf-60'>Jahre Erfahrung</p>
           </div>
 
         </div>

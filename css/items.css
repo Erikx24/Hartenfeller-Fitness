@@ -10,6 +10,7 @@
     transition: opacity 0.3s ease;
 }
 
+
 .button:hover {
     opacity: 0.65;
 }

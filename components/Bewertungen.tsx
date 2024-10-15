@@ -18,7 +18,7 @@ const testimonials = [
 
 const Bewertungen = () => {
   return (
-    <div id='erfahrungen' className='lg:w-full max-w-[1800px] px-5 md:px-24  pt-16 '>
+    <div id='bewertungen' className='lg:w-full max-w-[1800px] px-5 md:px-24  pt-16 '>
     <div className='w-full max-w-7xl mx-auto flex flex-col justify-center gap-5 items-center lg:items-start '>
 
    
