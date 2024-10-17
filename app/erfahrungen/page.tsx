@@ -26,15 +26,15 @@ const page = () => {
       <Navbar />
 
       <div className='max-w-7xl py-10 px-4 mx-auto overflow-hidden mb-40 mt-20'>
-        <div className='fixed rounded-full p-1 bg-white z-50'>
-      <Link href='/#bewertungen'><MdArrowBackIosNew className=' text-ecs-richBlack text-3xl hover:text-ecs-SilverLakeBlue' /></Link>
+        <div className='fixed rounded-full p-1 bg-white z-50 shadow-lg'>
+      <Link href='/#bewertungen'><MdArrowBackIosNew className=' text-ecs-richBlack text-3xl hover:text-ecs-SilverLakeBlue -translate-x-[2px]' /></Link>
       </div>
        <h1 className='text-ecs-richBlack text-center subheadline pb-10'>Erfahrungen</h1>
 
 <ul className='flex flex-col lg:flex-row gap-10'>
        {testimonials.map((item) => (
   <li
-  className="w-[350px] relative rounded-2xl border-2 border-hf-200 px-6 py-4 md:w-[450px] bg-hf-500 shadow-md "
+  className="min-w-[300px] w-fit relative rounded-2xl border-2 border-hf-200 px-6 py-4 md:w-[450px] bg-hf-500 shadow-md "
   key={item.name}
 >
   <div>
