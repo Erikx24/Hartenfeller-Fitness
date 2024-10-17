@@ -170,7 +170,6 @@ const ProbetrainingView = ({ closeModal }: { closeModal: () => void }) => {
       <label className="mb-2" htmlFor="page">Was ist Ihr Trainingsziel?</label>
       <select id="fitnessziel" value={Fitnessziel} onChange={handleFitnessziel} className=' bg-ecs-Default font-medium text-ecs-prussianBlue'>
         <option value="Muskelaufbau">Muskelaufbau</option>
-        <option value="Reha">Reha</option>
         <option value="Abnehmen">Abnehmen</option>
       </select>
       </div>
