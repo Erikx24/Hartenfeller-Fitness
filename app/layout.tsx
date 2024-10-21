@@ -9,9 +9,20 @@ const outfit = Outfit({
 
 // Metadata
 export const metadata: Metadata = {
-  title: "Hartenfeller Fitness",
-  description: "Gesund und (wieder) Fit werden!",
+  title: "Personal Trainer Hanau | Hartenfeller Fitness | Legen Sie jetzt los!",
+  description: "Gesund und (wieder) Fit werden! - Personal Trainer aus Hanau: Individuelles Training für Ihre Fitnessziele. Ob Muskelaufbau, Gewichtsreduktion oder Rehabilitation – starten Sie jetzt mit einem maßgeschneiderten Fitnessprogramm!",
   icons: '/favicon.png',
+  keywords: 
+  [ "Personal Trainer Hanau",
+  "individuelles Training Hanau",
+  "Fitnessziele erreichen Hanau",
+  "Muskelaufbau Hanau",
+  "Gewichtsreduktion Hanau",
+  "Rehabilitationstraining Hanau",
+  "Fitnessprogramm Hanau",
+  "Personal Training Hanau",
+  "Personal Coach Hanau"]
+  
 };
 
 // RootLayout-Komponente

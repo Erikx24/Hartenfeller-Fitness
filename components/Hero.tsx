@@ -16,7 +16,7 @@ const Hero = () => {
         <div className='flex flex-col items-center lg:items-start z-20 gap-6'>
           <motion.a href='/#about' initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5, ease: [0, 0.71, 0.2, 1.01], delay: 0 }}
             className='infoButton infoButtonText flex flex-row items-center gap-4'>
-            <Image src={'/images/profile.png'} alt={''} width={100} height={100} quality={50} className='w-[30px] h-[30px] lg:w-[40px] lg:h-[40px]' />
+            <Image src={'/images/profile.png'} alt={'Es zeigt Luis Hartenfeller. Ein junger sportlicher Mann, welcher lächelt.'} width={100} height={100} quality={50} className='w-[30px] h-[30px] lg:w-[40px] lg:h-[40px]' />
             <div className='flex-row flex items-center gap-2'>
               Luis Hartenfeller
               <BsArrowUpRight />
@@ -46,7 +46,7 @@ const Hero = () => {
         </div>
       
 
-      <Image src={'/images/bg.png'} alt={''} width={900} height={1300} quality={100} className=' max-w-full object-cover lg:absolute lg:z-30 lg:scale-75 lg:left-[30%] lg:top-[25%] xl:scale-100 xl:top-[40%] xl:left-[50%] '/>
+      <Image src={'/images/bg.png'} alt={'Das Bild zeigt verschiedene Fitness-Accessoires, welche bei Hartenfeller benutzt werden.'} width={900} height={1300} quality={100} className=' max-w-full object-cover lg:absolute lg:z-30 lg:scale-75 lg:left-[30%] lg:top-[25%] xl:scale-100 xl:top-[40%] xl:left-[50%] '/>
       </div>
     </div>
   )

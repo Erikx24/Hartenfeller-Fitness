@@ -12,7 +12,7 @@ const page = () => {
       <Link href='/'><MdArrowBackIosNew className=' text-ecs-richBlack text-3xl hover:text-ecs-SilverLakeBlue' /></Link>
       </div>
 
-       <h1 className='text-ecs-richBlack text-center subheadline pb-10'>Impressum</h1>
+       <h2 className='text-ecs-richBlack text-center subheadline pb-10'>Impressum</h2>
 
         <div className='overflow-hidden info text-hf-80'>
 

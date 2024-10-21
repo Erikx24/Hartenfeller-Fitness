@@ -29,10 +29,10 @@ const ContactForm = () => {
     e.preventDefault();
 
     emailjs.send(
-      'service_20v9u5r',        // Service ID
-      'template_s89uzas',       // Template ID
+      'service_y5p5u6c',        // Service ID
+      'template_7uhoemc',       // Template ID
       formData,                 // Form Data
-      'KSB6tzxF0Msk5pSkm'
+      'lHpAmVVB4WUmQ5H3I'
     ).then(
       () => {
         alert('Nachricht erfolgreich gesendet!');
@@ -51,7 +51,7 @@ const ContactForm = () => {
     <form onSubmit={handleSubmit} className="mx-auto w-full rounded-xl p-5 bg-hf-100">
       <div className="mb-4">
 <div className='w-full flex justify-center lg:justify-start'>
-        <h1 className='text-hf-90 callout pb-8'>Kontaktformular</h1>
+        <h2 className='text-hf-90 callout pb-8'>Kontaktformular</h2>
         </div>
         <label className="block info text-hf-80 mb-2" htmlFor="firstName">
           Vorname

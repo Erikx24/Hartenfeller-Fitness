@@ -60,9 +60,9 @@ const Termin = () => {
       >
         <motion.div className='flex flex-col space-y-5 items-center xl:items-start' variants={item}>
           <h2 className='sectionTitle'>Termin vereinbaren</h2>
-          <h1 className='subheadline leading-tight text-center xl:text-left'>
+          <h2 className='subheadline leading-tight text-center xl:text-left'>
             Jetzt einfach und schnell einen Termin vereinbaren
-          </h1>
+          </h2>
         </motion.div>
 
         <motion.div className='w-full flex flex-col xl:flex-row justify-center gap-20 xl:justify-between' variants={variants}>

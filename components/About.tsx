@@ -41,16 +41,16 @@ const About = () => {
           className='sectionTitle hidden lg:block'
           variants={item}
         >
-          Über mich
+          Wer bin ich?
         </motion.h2>
 
         <motion.div
           className='flex flex-col space-y-2 items-center lg:items-start'
           variants={item}
         >
-          <motion.h1 className='subheadline leading-tight text-center lg:text-left' variants={item}>
+          <motion.h2 className='subheadline leading-tight text-center lg:text-left' variants={item}>
             Ihr Ziel trifft<br className='hidden lg:block' /> meine Erfahrung
-          </motion.h1>
+          </motion.h2>
 
           <motion.p
             className='info text-hf-80 text-justify lg:text-left'
@@ -75,7 +75,7 @@ const About = () => {
       >
         <Image
           src={'/images/About.png'}
-          alt={'Über mich Bild'}
+          alt={'Es zeigt Luis Hartenfeller. Ein junger sportlicher Mann, welcher lächelt.'}
           width={300}
           height={400}
           className='rounded-xl'

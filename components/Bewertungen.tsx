@@ -25,7 +25,7 @@ const Bewertungen = () => {
       
     <h2 className='sectionTitle '>Erfahrungen</h2>
     <div className='flex flex-col space-y-1 items-center lg:items-start'>
-    <h1 className='subheadline leading-tight'>Was meine Kunden sagen</h1>
+    <h2 className='subheadline leading-tight'>Was meine Kunden sagen</h2>
     
     </div>
 </div>

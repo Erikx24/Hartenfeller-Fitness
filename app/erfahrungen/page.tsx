@@ -29,7 +29,7 @@ const page = () => {
         <div className='fixed rounded-full p-1 bg-white z-50 shadow-lg'>
       <Link href='/#bewertungen'><MdArrowBackIosNew className=' text-ecs-richBlack text-3xl hover:text-ecs-SilverLakeBlue -translate-x-[2px]' /></Link>
       </div>
-       <h1 className='text-ecs-richBlack text-center subheadline pb-10'>Erfahrungen</h1>
+       <h2 className='text-ecs-richBlack text-center subheadline pb-10'>Erfahrungen</h2>
 
 <ul className='flex flex-col lg:flex-row gap-10'>
        {testimonials.map((item) => (

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.hartenfeller-fitness.de
+
+# Sitemaps
+Sitemap: https://www.hartenfeller-fitness/sitemap.xml

@@ -24,7 +24,7 @@ const Navbar = () => {
     <div className='w-full max-w-7xl mx-auto flex flex-row items-center justify-between '>
       <a href='/' className='flex flex-row items-center gap-2 lg:gap-5 text-hf-100 text-xs md:text-base w-[20vw]'>
         
-        <Image className='scale-75 md:scale-100 lg:scale-125' width={40} height={40} src={'/images/Logo.png'} alt={''}/>
+        <Image className='scale-75 md:scale-100 lg:scale-125' width={40} height={40} src={'/images/Logo.png'} alt={'Das Logo von Hartenfeller-Fitness. Es zeigt einen Kopf, welcher für Gesundheit steht. Alles im grünen Stil'}/>
         <p>Hartenfeller<br/>Fitness</p>
 
         </a> 

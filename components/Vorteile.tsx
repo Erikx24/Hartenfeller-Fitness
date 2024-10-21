@@ -46,7 +46,7 @@ const Vorteile = () => {
         }}
         variants={item}
       >
-        <Image src={'/images/Vorteile.jpg'} alt={'Vorteile Bild'} width={500} height={400} className='rounded-xl' />
+        <Image src={'/images/Vorteile.jpg'} alt={'Eine Frau, welche mit Hilfe eines Trainers Übungen macht. Die Übung dient der besseren Rückenmuskulatur und dadurch der Körperhaltung.'} width={500} height={400} className='rounded-xl' />
       </motion.div>
 
       <motion.div
@@ -60,13 +60,13 @@ const Vorteile = () => {
         className='flex flex-col gap-8 w-full max-w-3xl lg:w-[45%]'
       >
         <motion.h2 className='sectionTitle hidden lg:block' variants={item}>
-          Vorteile
+          Welche Vorteile?
         </motion.h2>
 
         <motion.div className='flex flex-col space-y-2 items-center lg:items-start text-center lg:text-left' variants={item}>
-          <motion.h1 className='subheadline leading-tight' variants={item}>
+          <motion.h2 className='subheadline leading-tight' variants={item}>
             Schneller und sicherer an Ihr Ziel
-          </motion.h1>
+          </motion.h2>
 
           <motion.p className='info text-hf-80 text-justify lg:text-left' variants={item}>
             Mit einem Personal Trainer trainieren Sie{' '}

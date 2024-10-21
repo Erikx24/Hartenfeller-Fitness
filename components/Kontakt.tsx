@@ -39,10 +39,10 @@ const Kontakt = () => {
       }}
       variants={variants}
     >
-      <motion.h2 className='sectionTitle' variants={item}>Kontakt</motion.h2>
-      <motion.h1 className='subheadline leading-tight text-center lg:text-left' variants={item}>
+      <motion.h2 className='sectionTitle' variants={item}>So können Sie mich erreichen</motion.h2>
+      <motion.h2 className='subheadline leading-tight text-center lg:text-left' variants={item}>
         Fragen oder Anregungen?
-      </motion.h1>
+      </motion.h2>
 
       <motion.div
         className='w-full flex flex-col lg:flex-row gap-20 lg:gap-10 justify-between items-center lg:items-start mt-8 z-0'

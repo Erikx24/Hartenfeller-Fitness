@@ -61,10 +61,10 @@ const ProbetrainingView = ({ closeModal }: { closeModal: () => void }) => {
     e.preventDefault();
 
     emailjs.send(
-      'service_20v9u5r',        // Service ID
-      'template_xlqkq1e',       // Template ID
+      'service_y5p5u6c',        // Service ID
+      'template_rlzbav4',       // Template ID
       formData,                 // Form Data
-      'KSB6tzxF0Msk5pSkm'
+      'lHpAmVVB4WUmQ5H3I'
     ).then(
       () => {
         alert('Nachricht erfolgreich gesendet!');

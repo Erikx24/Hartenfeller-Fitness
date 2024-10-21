@@ -5,7 +5,7 @@ import { FaXmark } from 'react-icons/fa6';
 const TrainingView = ({ closeModal }: { closeModal: () => void }) => {
 
   const [formData, setFormData] = useState({
-    name: '',
+    firstName: '',
     message: '',
   });
 
@@ -23,10 +23,10 @@ const TrainingView = ({ closeModal }: { closeModal: () => void }) => {
     e.preventDefault();
 
     emailjs.send(
-      'service_20v9u5r',        // Service ID
-      'template_s89uzas',       // Template ID
+      'service_y5p5u6c',        // Service ID
+      'template_7uhoemc',       // Template ID
       formData,                 // Form Data
-      'KSB6tzxF0Msk5pSkm'
+      'lHpAmVVB4WUmQ5H3I'
     ).then(
       () => {
         alert('Nachricht erfolgreich gesendet!');
@@ -56,13 +56,13 @@ const TrainingView = ({ closeModal }: { closeModal: () => void }) => {
 
       <form onSubmit={handleSubmit} className="mx-auto ">
       <div className="mb-4">
-        <label className="block text-hf-80 mb-2" htmlFor="name">
+        <label className="block text-hf-80 mb-2" htmlFor="firstNname">
           Name
         </label>
         <input
           type="text"
           name="firstName"
-          value={formData.name}
+          value={formData.firstName}
           onChange={handleChange}
           className="appearance-none border border-stone-400 rounded-lg w-full py-2 px-3 text-ecs-prussianBlue leading-tight focus:outline-none focus:shadow-outline bg-transparent"
           required
