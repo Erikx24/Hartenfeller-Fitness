@@ -46,7 +46,8 @@ const Hero = () => {
         </div>
       
 
-      <Image src={'/images/bg.png'} alt={'Das Bild zeigt verschiedene Fitness-Accessoires, welche bei Hartenfeller benutzt werden.'} width={900} height={1300} quality={100} className=' max-w-full object-cover lg:absolute lg:z-30 lg:scale-75 lg:left-[30%] lg:top-[25%] xl:scale-100 xl:top-[40%] xl:left-[50%] '/>
+      <Image src={'/images/bg.png'} alt={'Das Bild zeigt verschiedene Fitness-Accessoires, welche bei Hartenfeller benutzt werden.'} width={900} height={1300} quality={100}
+       className=' max-w-full object-cover lg:absolute lg:z-30  -translate-y-[1vh] lg:scale-50 lg:left-[23vw] lg:top-[15%] xl:scale-75 xl:top-[20%] xl:left-[38%] 2xl:left-[48vw] '/>
       </div>
     </div>
   )
