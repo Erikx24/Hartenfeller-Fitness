@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { FaXmark } from 'react-icons/fa6';
+import { ImInfo } from 'react-icons/im';
+import Link from 'next/link';
 
 const ProbetrainingView = ({ closeModal }: { closeModal: () => void }) => {
   const [buttonTitle, setButtonTitle] = useState<string>('Anfrage senden')
@@ -198,6 +200,13 @@ const ProbetrainingView = ({ closeModal }: { closeModal: () => void }) => {
           rows= {5}
           required
         />
+      </div>
+
+      <div className='flex flex-row gap-3 items-center text-hf-400 mb-4'>
+<ImInfo className='text-2xl text-hf-300'/>
+<span>
+Mit dem Abschicken dieser Nachricht stimmen Sie der <Link href="/datenschutz" className='text-hf-350 underline'>Datenschutzerklärung</Link> zu.
+</span>
       </div>
 
       <div className="flex items-center justify-between">

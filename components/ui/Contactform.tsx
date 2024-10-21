@@ -1,6 +1,8 @@
 "use client"
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { ImInfo } from 'react-icons/im';
+import Link from 'next/link';
 
 
 const ContactForm = () => {
@@ -119,6 +121,13 @@ const ContactForm = () => {
           rows= {5}
           required
         />
+      </div>
+
+      <div className='flex flex-row gap-3 items-center text-hf-400 mb-2'>
+<ImInfo className='text-3xl text-hf-300'/>
+<span>
+Mit dem Abschicken dieser Nachricht stimmen Sie der <Link href="/datenschutz" className='text-hf-350 underline'>Datenschutzerklärung</Link> zu.
+</span>
       </div>
 
       <div className="flex items-center justify-between">
