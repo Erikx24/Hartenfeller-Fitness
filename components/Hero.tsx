@@ -30,10 +30,10 @@ const Hero = () => {
             </div>
 
             {/* Vorteile */}
-            <motion.div initial={{ scale: 0.8, y: 20, opacity: 0 }} animate={{ scale: 1, y: 0, opacity: 1 }} transition={{ duration: 0.4, ease: [0, 0.71, 0.2, 1.01], delay: 1.2 }}
+            <motion.h1 initial={{ scale: 0.8, y: 20, opacity: 0 }} animate={{ scale: 1, y: 0, opacity: 1 }} transition={{ duration: 0.4, ease: [0, 0.71, 0.2, 1.01], delay: 1.2 }}
               className="info text-center lg:text-left text-hf-70 lg:w-[50%] w-[90%] max-w-xl">
               Ob Muskelaufbau oder einen gesunden, leistungsfähigen Körper - mit meiner Expertise helfe ich Menschen in jeder Situation (wieder) fit für den Alltag zu werden.
-            </motion.div>
+            </motion.h1>
           </div>
         </div>
 

@@ -9,7 +9,7 @@ const outfit = Outfit({
 
 // Metadata
 export const metadata: Metadata = {
-  title: "Personal Trainer Hanau | Hartenfeller Fitness | Legen Sie jetzt los!",
+  title: "Personal Trainer Hanau | Hartenfeller Fitness",
   description: "Gesund und (wieder) Fit werden! - Personal Trainer aus Hanau: Individuelles Training für Ihre Fitnessziele. Ob Muskelaufbau, Gewichtsreduktion oder Rehabilitation – starten Sie jetzt mit einem maßgeschneiderten Fitnessprogramm!",
   icons: '/favicon.png',
   keywords: 
